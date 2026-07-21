@@ -1,3 +1,24 @@
-document.querySelector("button").addEventListener("click", function () {
-  alert("💖 Surprise! 💖\n\nDear Cherry,\nYou are the best friend anyone could ever ask for.\nThank you for always making me smile.\nYou are so amazing and I am so lucky to have you.\n❤️ Love you forever! ❤️");
-});
+function showMessage(){
+
+alert(`💖 Dear Cherry 💖
+
+You are not just my best friend...
+
+You are my happiness,
+my smile,
+my safe place,
+and one of the best people
+I have ever met.
+
+Thank you for always being with me.
+
+No matter what happens,
+I will always care about you.
+
+🌸 You will always be my Cherry. 🍒
+
+❤️ Made with Love by Sobia ❤️`);
+
+}
+
+document.getElementById("btn").onclick = showMessage;
