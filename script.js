@@ -34,3 +34,23 @@ function typeWriter() {
 window.onload = function () {
   typeWriter();
 };
+document.getElementById("finalBtn").addEventListener("click", function () {
+  alert(`🎉 One Last Surprise 🎉
+
+Dear Cherry 🍒,
+
+Thank you for being the most wonderful friend.
+
+Every smile,
+every laugh,
+and every memory with you
+means so much to me.
+
+No matter where life takes us,
+I hope our friendship stays forever. ❤️
+
+🌸 You are truly special. 🌸
+
+Love,
+Sobia 💖`);
+});
