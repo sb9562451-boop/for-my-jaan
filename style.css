@@ -1,4 +1,4 @@
-0body{
+o0body{
 margin:0;
 padding:0;
 font-family:Arial,sans-serif;
@@ -200,3 +200,36 @@ transition:.3s;
 .photos img:hover{
 transform:scale(1.08);
 }
+.memory{
+margin:50px auto;
+width:90%;
+max-width:700px;
+background:white;
+padding:30px;
+border-radius:25px;
+box-shadow:0 0 20px rgba(255,105,180,.3);
+text-align:center;
+}
+
+.memory h2{
+color:#ff1493;
+margin-bottom:20px;
+}
+
+.memory ul{
+list-style:none;
+padding:0;
+}
+
+.memory li{
+font-size:20px;
+margin:15px 0;
+color:#555;
+}
+
+.end{
+margin-top:25px;
+font-size:22px;
+font-weight:bold;
+color:#ff1493;
+  }
