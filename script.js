@@ -1,14 +1,12 @@
-function showMessage(){
-
-alert(`💖 Dear Cherry 💖
+function showMessage() {
+  alert(`💖 Dear Cherry 💖
 
 You are not just my best friend...
 
 You are my happiness,
 my smile,
 my safe place,
-and one of the best people
-I have ever met.
+and one of the best people I have ever met.
 
 Thank you for always being with me.
 
@@ -18,10 +16,9 @@ I will always care about you.
 🌸 You will always be my Cherry. 🍒
 
 ❤️ Made with Love by Sobia ❤️`);
-
 }
 
-document.getElementById("btn").onclick = showMessage;
+document.querySelector("button").addEventListener("click", showMessage);
 
 const text = "Every friendship has a story... and you are my favorite chapter. 💖";
 let i = 0;
@@ -36,25 +33,4 @@ function typeWriter() {
 
 window.onload = function () {
   typeWriter();
-
-  document.getElementById("btn").onclick = function () {
-    alert(`💖 Dear Cherry 💖
-
-You are not just my best friend...
-
-You are my happiness,
-my smile,
-my safe place,
-and one of the best people
-I have ever met.
-
-Thank you for always being with me.
-
-No matter what happens,
-I will always care about you.
-
-🌸 You will always be my Cherry. 🍒
-
-❤️ Made with Love by Sobia ❤️`);
-  };
 };
